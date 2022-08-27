@@ -61,6 +61,28 @@ and `which python3` should point to the one in the Conda environment.
 My machine does not have enough VRAM to do full-sized images (512×512),
 but is able to do half-sized (512×256).
 
+### `img2img`
+
+```bash
+$ python3 optimizedSD/optimized_img2img.py --prompt "Perth skyline, oil painting" --init-img perth-skyline-sketch.png --strength 0.5 --n_samples 5 --H 256 --W 512 --seed 0 --format jpg
+```
+
+- Input:
+
+  ![Paint sketch of Bank West and Rio Tinto towers](perth-skyline-sketch.png)
+
+- Output:
+
+  | Seed | Output |
+  | - | - |
+  | 0 | ![Seed 0 output image](Perth_skyline,_oil_painting/seed_0_00000.jpg) |
+  | 1 | ![Seed 1 output image](Perth_skyline,_oil_painting/seed_1_00001.jpg) |
+  | 2 | ![Seed 2 output image](Perth_skyline,_oil_painting/seed_2_00002.jpg) |
+  | 3 | ![Seed 3 output image](Perth_skyline,_oil_painting/seed_3_00003.jpg) |
+  | 4 | ![Seed 4 output image](Perth_skyline,_oil_painting/seed_4_00004.jpg) |
+
+### `txt2img`
+
 ```bash
 $ python3 optimizedSD/optimized_txt2img.py --prompt "Perth City and the Swan River as viewed from King's Park" --H 256 --W 512 --seed 0 --format jpg
 ```
