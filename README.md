@@ -64,3 +64,11 @@ but is able to do half-sized (512×256).
 ```bash
 $ python3 optimizedSD/optimized_txt2img.py --prompt "Perth City and the Swan River as viewed from King's Park" --H 256 --W 512 --seed 0 --format jpg
 ```
+
+| Seed | Output |
+| - | - |
+| 0 | ![Seed 0 output image](Perth_City_and_the_Swan_River_as_viewed_from_King's_Park/seed_0_00000.jpg) |
+| 1 | ![Seed 1 output image](Perth_City_and_the_Swan_River_as_viewed_from_King's_Park/seed_1_00001.jpg) |
+| 2 | ![Seed 2 output image](Perth_City_and_the_Swan_River_as_viewed_from_King's_Park/seed_2_00002.jpg) |
+| 3 | ![Seed 3 output image](Perth_City_and_the_Swan_River_as_viewed_from_King's_Park/seed_3_00003.jpg) |
+| 4 | ![Seed 4 output image](Perth_City_and_the_Swan_River_as_viewed_from_King's_Park/seed_4_00004.jpg) |
