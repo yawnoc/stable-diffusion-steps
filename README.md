@@ -59,7 +59,8 @@ and `which python3` should point to the one in the Conda environment.
 ## 5. Generate images
 
 My machine does not have enough VRAM to do full-sized images (512×512),
-but is able to do half-sized (512×256).
+but is able to do three-quarter sized (512×384).
+The below examples are half-sized (512×256).
 
 ### `img2img`
 
