@@ -33,9 +33,9 @@ $ cd basujindal-stable-diffusion/
 ## 3. Enable the Conda environment
 
 ```bash
-source /opt/conda/etc/profile.d/conda.sh
-conda env create -f environment.yaml
-conda activate ldm
+$ source /opt/conda/etc/profile.d/conda.sh
+$ conda env create -f environment.yaml
+$ conda activate ldm
 ```
 
 The terminal should now be prefixed with `(ldm)`,
