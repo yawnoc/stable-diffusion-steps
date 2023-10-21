@@ -1,3 +1,8 @@
+**These steps are now obsolete; use [AUTOMATIC1111/stable-diffusion-webui] or similar.**
+
+[AUTOMATIC1111/stable-diffusion-webui]: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+
 # stable-diffusion-steps
 
 Steps to get Stable Diffusion working on a Debian laptop
